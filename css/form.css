@@ -1,0 +1,48 @@
+@import url(hobilerim.css);
+
+
+
+.form-container {
+   
+    border-radius: 0.7320644216691069vw;
+    padding: 1.4641288433382138vw;
+    box-shadow: 0 0 0.7320644216691069vw rgba(0, 0, 0, 0.1);
+    left: 27.59067496339678vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    
+    
+}
+.form-container form {
+    z-index: 10;
+    
+}
+.form-container input[type="text"], 
+.form-container input[type="submit"] {
+    width: 40vw;
+    margin-bottom: 0.7320644216691069vw;
+    padding: 0.7320644216691069vw;
+    border: 0.07320644216691069vw solid #ddd;
+    border-radius: 0.36603221083455345vw;
+    box-sizing: border-box;
+    text-align: center; 
+  
+    
+}
+.form-container input[type="submit"] {
+    background-color: #4caf50;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+#uzun {
+    height: 19.641288433382138vw;
+}

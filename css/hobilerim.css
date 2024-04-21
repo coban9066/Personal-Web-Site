@@ -1,0 +1,19 @@
+@import url(style.css);
+
+.metin {
+    z-index: 500;
+    color: white;
+    display: block;
+    width: 70.24450951683748vw;
+    left: 20.641288433382138vw;
+    position: fixed;
+     top: 8.8603221083455346vw;
+   font-size: 1.5980966325036603vw;
+   transition: 2s all;
+   position: fixed;
+}
+.metin:hover{
+   
+    transform: scale(0.9);
+    cursor: pointer;
+}
